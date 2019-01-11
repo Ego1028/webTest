@@ -1,0 +1,20 @@
+page{
+  background-color:rgb(226, 237, 255);
+}
+button{
+  margin-top:50rpx;
+  width: 40%;
+  background-color: beige;
+  color: black;
+  margin-bottom: 50rpx;
+  font-size: 10px;
+  height: 120%;
+}
+view{
+  margin-bottom: 30rpx;
+  margin-left: 20rpx;
+}
+.result{
+  text-align: center;
+  font-weight: bold;
+}

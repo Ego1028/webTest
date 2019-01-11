@@ -1,0 +1,43 @@
+/**index.wxss**/
+page{
+  background-color:rgb(226, 237, 255);
+}
+.input-name{
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 25px;
+  padding-left: 5px;
+}
+.ask-name{
+  float: left;
+  margin-left: 20px;
+}
+.input-service{
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 25px;
+  padding: 7px;
+
+}
+.ask-service{
+  margin-left: 20px;
+  display: inline-block;
+}
+.btn_hover {
+  background-color: pink;
+}
+.submit-button{
+  width: 40%;
+  margin-top: 20rpx;
+  background-color: beige;
+  color: black;
+  margin-bottom: 50rpx;
+  
+}
+
+.start-test{
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: beige;
+  color: white;
+}

@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wx99a71f27a97de874",
+	"projectname": "net_MP",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "compaign01",
+					"pathName": "pages/index/index",
+					"scene": "1035",
+					"referrerInfo": {}
+				},
+				{
+					"id": 1,
+					"name": "compaign02",
+					"pathName": "pages/result/result",
+					"scene": "1035",
+					"referrerInfo": {}
+				}
+			]
+		}
+	}
+}

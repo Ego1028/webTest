@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='box'>
+    <form bindsubmit='onSubmit'>
+      <text class='ask-name'>您的姓名是： </text>
+      <input name='name' class='input-name' value='' type='text' bindconfirm='nameChange'></input>
+      <text class='ask-service'>\n您的网络运营商是： </text>
+      <picker name='service' class='input-service' range='{{webService}}' value='{{webService[index]}}' bindchange='serviceChange'>{{webService[index]}}</picker>
+      <button class='submit-button' form-type='submit' hover-class='btn_hover' >提交</button>
+    </form>
+  </view>
+  <view class="test-start">
+    <button bindtap='startTest' disabled="{{button}}" hover-class='btn_hover'>开始测速</button>
+  </view>
+  <view wx:if="{{currentUrl!=''}}">
+    正在测试与{{currentUrl}}的网络请求延时..
+    正在进行{{yw_latency_trail}}/5次请求，预计剩余时间{{(5-yw_latency_trail)*0.5}}秒
+  </view>
+</view>

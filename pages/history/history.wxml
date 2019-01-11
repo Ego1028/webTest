@@ -1,0 +1,7 @@
+<view wx:for="{{history}}">
+  <view class="info">
+    {{index+1}}.{{item.time}} 姓名： {{item.name}}
+  </view>
+  <button bindtap='checkResult' data-id='{{index}}'>查看结果</button>
+</view>
+<button bindtap='clearHistory'>清空历史</button>

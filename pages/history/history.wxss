@@ -1,0 +1,17 @@
+button{
+  display: flex;
+  width: 20%;
+  background-color: beige;
+  color: black;
+  margin-bottom: 25rpx;
+  font-size: 10px;
+  height: 80%;
+  margin-top: 10rpx;
+}
+.info{
+  display: flex;
+  font-size: 14px;
+}
+page{
+  background-color:rgb(226, 237, 255);
+}

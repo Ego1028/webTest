@@ -1,0 +1,12 @@
+<view>
+  <view class='result'>测试结果</view>
+  <view>姓名: {{name}}\n</view>
+  <view>网络运营商: {{web}}\n</view>
+  <view>位置: {{location}}\n</view>
+  <view>YWBackend-latency: {{yw_latency_avg}}ms\n</view>
+  <view>Status: 上传成功</view>
+  <view wx:if="{{yw_latency_avg<200}}">Your network condition is good</view>
+  <view wx:elif="{{yw_latency_avg>800}}">Your network condition is bad</view>
+  <view wx:else>Your network condition is medium</view>
+  <button bindtap='reupload'>重新上传</button>
+</view>
