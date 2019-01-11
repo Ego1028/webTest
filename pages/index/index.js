@@ -313,7 +313,7 @@ Page({
           url: 'https://maps.googleapis.com/maps/api/geocode/json',
           data:{
             latlng:''+latitude+','+longitude,
-            key: 'AIzaSyAUd1MvJkwuVgauwE6hszDRYcvdDxdToek',
+            key: '12345',
           },
           success(res){
             that.setData({
